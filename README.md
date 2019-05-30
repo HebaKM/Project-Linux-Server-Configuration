@@ -137,7 +137,7 @@ if this works, you are ready to go back to the previous steps and remove port 22
 #### 5.1 Install Apache package
 1. First, we need to install and configure Apache to serve a Python mod_wsgi application: `sudo apt-get install apache2`.
 2. Open a browser and type your public IP address, you should see the following page:
-![Apache Homepage](/screenshots/apache.PNG)
+![Apache Homepage](/screenshots/apache.png)
 
 #### 5.2 Install mod_wsgi package
 1. Since the project was built with Python 3, we need to install the Python 3 mod_wsgi package on the server: `sudo apt-get install libapache2-mod-wsgi-py3`
